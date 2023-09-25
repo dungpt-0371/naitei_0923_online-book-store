@@ -124,5 +124,7 @@
     "Books": "Sách",
     "Users": "Người dùng",
     "Orders": "Đơn hàng",
-    "Search Results for": "Kết quả tìm kiếm cho"
+    "Search Results for": "Kết quả tìm kiếm cho",
+    "Pending": "Chờ giải quyết",
+    "Shipped": "Đã nhận"
 }

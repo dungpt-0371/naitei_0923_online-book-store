@@ -23,7 +23,7 @@
                             <td class="text-gray-900 text-center">{{ $order->id }}</td>
                             <td class="text-gray-900 text-center">{{ $order->created_at }}</td>
                             <td class="text-gray-900 text-center">$ {{ $order->total }}</td>
-                            <td class="text-gray-900 text-center">{{ $order->status }}</td>
+                            <td class="text-gray-900 text-center">{{ $order->status_display }}</td>
                             <td class="text-gray-900 text-center">
                                 <a href="{{ route('orders.show', ['order' => $order->id]) }}">
                                     <x-primary-button>

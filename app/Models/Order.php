@@ -17,6 +17,14 @@ class Order extends Model
         'status',
     ];
 
+    public function getStatusDisplayAttribute()
+    {
+        if ($this->status == 0) {
+            return __('Pending');
+        } elseif ($this->status == 1) {
+            return __('Shipped');
+        }
+    }
     public function user()
     {
         return $this->belongsTo(User::class);
